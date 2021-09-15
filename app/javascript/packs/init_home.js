@@ -9,11 +9,11 @@ const home = () => {
   window.addEventListener('scroll', () =>{
     let value = window.scrollY;
     hillLeft.style.top = value * 1.25 + 'px';
-    hillRight.style.top = value * 1.21 + 'px';
+    hillRight.style.top = value * 1.24 + 'px';
     treesLeft.style.top = value * 1.17 + 'px';
-    treesRight.style.top = value * 1.13 + 'px';
-    mountainLeft.style.top = value * 1.09 + 'px';
-    mountainRight.style.top = value * 1.06 + 'px';
+    treesRight.style.top = value * 1.16 + 'px';
+    mountainLeft.style.top = value * 1.14 + 'px';
+    mountainRight.style.top = value * 1.13 + 'px';
   })
 }
 
